@@ -44,11 +44,11 @@ $ python scripts/run_pipeline.py assets/sample/招标文件_智慧人社运维_�
 ### 作为 WorkBuddy Skill
 
 ```bash
-git clone https://github.com/<你的用户名>/tender-bid-drafter.git \
+git clone https://github.com/qianmolsc/tender-bid-drafter.git \
   ~/.workbuddy/skills/tender-bid-drafter
 ```
 
-重启客户端，输入框敲 `/` 找「标书初稿流水线」，或直接说"这份招标文件帮我拆评分点"。
+重启客户端，输入框敲 `@` 选「标书初稿流水线」，或直接说"这份招标文件帮我拆评分点"。
 
 依赖只有 Python 3.7+ 标准库，**不需要 pip install 任何东西**。
 
