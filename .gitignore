@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 跑流水线产生的中间件与产物（示例产物在 examples/ 里，已单独提交）
+out/
+output/
+parsed.json
+matched.json
+_smoke/
+_regress/
+
+# 客户端本地元数据：含本机绝对路径，不进仓库
+_skillhub_meta.json
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini

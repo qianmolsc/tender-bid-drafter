@@ -1,0 +1,14 @@
+# 统一 LF，避免 Windows 机器提交时 diff 满屏 ^M
+* text=auto eol=lf
+
+# shell 脚本保持 LF
+*.sh text eol=lf
+
+# 二进制
+*.png binary
+*.docx binary
+*.zip binary
+
+# 行数统计别把示例产物算进"源码"
+examples/** linguist-documentation
+docs/** linguist-documentation
